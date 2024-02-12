@@ -64,6 +64,8 @@ const images = [
   },
 ];
 
+// код для відкриття/закриття картинки
+
 const refs = {
   galleryList: document.querySelector('.gallery'),
 };
