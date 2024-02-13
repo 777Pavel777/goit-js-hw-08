@@ -20,9 +20,9 @@ body {
 
 .gallery-image {
     cursor: pointer;
-    transition: width 0.5s;
+    transition: transform 0.5s ease-in-out;
 }
 
 .gallery-image:hover {
-    width: 370px;
+    transform: scale(1.08);
 }

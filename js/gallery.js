@@ -100,13 +100,6 @@ refs.galleryList.addEventListener('click', (event) => {
   }
 });
 
-document.addEventListener("keydown", (event) => {
-  if (event.code === "Escape") {
-
-    closeLargeImage();
-  }
-});
-
 function showLargeImage(dataSource, description) {
   basicLightbox.create(`<div class="modalWindow">
     <img
@@ -116,9 +109,5 @@ function showLargeImage(dataSource, description) {
       height="640"
     >
   </div>`).show();
-}
-
-function closeLargeImage() {
-  basicLightbox.close();
-}
+};
 
