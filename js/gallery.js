@@ -88,8 +88,6 @@ function renderGalleryMarkup(images) {
 
 renderGalleryMarkup(images);
 
-renderGalleryMarkup(images);
-
 refs.galleryList.addEventListener('click', (event) => {
   if (event.target.classList.contains('gallery-image')) {
     event.preventDefault();
